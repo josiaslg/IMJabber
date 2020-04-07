@@ -26,7 +26,7 @@ uses
   Jabber.Actions in '..\HGMJabberClient\Jabber.Actions.pas',
   Jabber in '..\HGMJabberClient\Jabber.pas',
   Jabber.Types in '..\HGMJabberClient\Jabber.Types.pas',
-  VCLFlickerReduce in '..\#Fork\VCLFlickerReduce\VCLFlickerReduce.pas';
+  VCLFlickerReduce in '..\VCLFlickerReduce\VCLFlickerReduce.pas';
 
 {$R *.res}
 

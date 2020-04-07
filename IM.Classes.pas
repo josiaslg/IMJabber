@@ -25,7 +25,7 @@ type
   end;
 
   TGroupList = class(TTableData<TGroupItem>)
-    function Add(Value: TGroupItem): Integer; overload; override;
+    function Add(Value: TGroupItem): Integer; overload;
     function Add(GroupName: string): Integer; overload;
     function Add(Groups: TStringList): Boolean; overload;
     function ToList(CheckedOnly: Boolean): TArray<string>;
